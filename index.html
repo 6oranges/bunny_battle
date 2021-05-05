@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Real favicon Generator-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#6ed55b">
+    <link rel="shortcut icon" href="./icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./icons/browserconfig.xml">
+    <meta name="theme-color" content="#AAA">
+
+    <!-- SEO -->
+    <meta name="description" content="Bunny battle is a game where you fight other bunnies">
+    <meta name="keywords" content="battle, bunny">
+    <meta name="author" content="Jeanette Stander, Tim Stander, Sarah Stander">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <link link="timothystander.altervista.org/apps/bunny_battle" rel="canonical"/>
+    <link rel="manifest" href="manifest.json">
+    <title>Bunny Battle</title>
+</head>
+<body>
+    <div id="update">
+        <span>A new version is available click to reload</span><button>X</button>
+    </div>
+    <div id="page">
+        <canvas id="game"></canvas>
+        <div class="menu" id="main_menu">
+            <div class="title">Bunny Battle</div>
+            <button class="largebtn" id="play">
+                <div class="white largeimg"><img src="images/bunnies.webp" alt="white bunny"></div>
+                Play Game
+            </button>
+            <button class="largebtn" id="options">
+                <div class="black largeimg"><img src="images/bunnies.webp" alt="black bunny"></div>
+                Options
+            </button>
+            <button class="largebtn" id="help">
+                <div class="grey largeimg"><img src="images/bunnies.webp" alt="grey bunny"></div>
+                Help
+            </button>
+        </div>
+        <div class="menu" id="options_menu">
+            <div class="title">Options</div>
+            <label><input type="checkbox" id="fullscreen">Fullscreen</label><br>
+            <label><input type="checkbox" id="touch_controls">Touch Controlls</label><br>
+            <button id="back" class="smallbtn">Back</button>
+        </div>
+        <div id="loader"></div>
+        <button id="install" class="smallbtn">Install</button>
+        <div id="diagnostics"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "Bunny Battle",
+  "short_name": "Bunny Battle",
+  "icons": [
+      {
+          "src": "./icons/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "./icons/android-chrome-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ],
+  "lang": "en-US",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "white",
+  "theme_color": "#AAA",
+  "orientation":"landscape"
+}
